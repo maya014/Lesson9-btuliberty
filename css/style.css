@@ -1,0 +1,114 @@
+/*header*/
+.nav-header,
+.left-block,
+.right-block{
+	display: flex;
+}
+.nav-header{
+display: flex;
+justify-content: space-evenly;
+padding-top: 20px;
+margin: 0 auto;
+width: 100%;
+align-items: center;
+position: fixed;
+z-index: 1;
+background-color: white;
+}
+.logo{
+font-size: 25px;
+letter-spacing: 1px;
+line-height: 11px;
+color: #202126;
+font-weight: 800;
+padding-top: 10%;
+}
+.left-block
+{
+	margin-left: 10%;
+}
+.right-block{
+	margin-left: 40%;
+}
+.left-block li,
+.right-block li{
+	padding-left: 8%;
+	padding: 5%;
+}
+.burger {
+    font-size: 20px;
+    display: none;
+}
+/*and of header*/
+/*section*/
+.section{
+padding-top: 5%;
+margin-left: 10%;
+font-size: 35px;
+color: #202020;
+font-weight: 600;
+
+}
+/*and of section*/
+/*main*/
+.d-main{
+	margin-left: 5%;
+display: flex;
+flex-wrap: wrap;
+justify-content: start;
+padding-top: 5%;
+}
+
+.col{
+max-width: 272px;
+height: 327px;
+border-radius: 15px;
+background-color: #202126;
+object-fit: cover;
+color: white;
+margin-bottom: 2%;
+margin-left: 2%;
+position: relative;
+}
+.col:hover{
+filter: drop-shadow(0px 3px 3.5px rgba(0,0,0,0.16));
+background-color: #d7be69;
+}
+.title,
+.para {
+	padding-left: 5%;
+	padding-top: 12%;
+}
+.button {
+padding-left: 5%;
+padding-top: 15%;
+font-size: 16px;
+line-height: 28px;
+color: #ffffff;
+font-weight: 600;
+position: absolute;
+
+}
+/*and of main*/
+/*footer*/
+.d-footer,
+.ul-footer,
+.ull-footer{
+display: flex;
+}
+.ul-footer li{
+	padding: 10%;
+
+}
+.ull-footer{
+margin-left: 60%;
+}
+.ull-footer li{
+	padding: 10%;
+}
+.div-footer{
+text-align: center;
+background-color: #202126;
+}
+
+/*and of footer*/
